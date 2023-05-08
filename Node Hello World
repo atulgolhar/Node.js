@@ -1,0 +1,11 @@
+var msg = 'Hello World';
+console.log(msg);
+
+
+
+
+
+/*
+PS C:\Users\agolh\Desktop\Projects\project06_app.js> node app.js
+Hello World
+*/
