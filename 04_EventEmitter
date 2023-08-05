@@ -1,1 +1,26 @@
+how to respond to custom events when they are emitted
+
+
+{ "": "",
+  "": "",
+  "name": "",
+  "version": "",
+  "description": "",
+  "main": "",
+  "scripts": {},  
+  "author": "",
+  "license": "",
+  "dependencies": {},
+  "devDependencies": {}
+}
+
+
+rename the index.js file
+logEvents.js
+
+now need to make a logging event
+
+const fs = require('fs');
+const fsPromises = require('fs').promise;
+const path = require('path');
 
