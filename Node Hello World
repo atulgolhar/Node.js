@@ -9,3 +9,21 @@ console.log(msg);
 PS C:\Users\agolh\Desktop\Projects\project06_app.js> node app.js
 Hello World
 */
+
+
+
+//  TBD
+
+ return (
+     <div className="App">
+       <DataProvider>		
+       <Header title="React JS Blog" width={width} />		<<<<<<<<<<<<<<<HERE
+       <Nav search={search} setSearch={setsearch} />
+       <Switch>
+         <Route exact path="/">
+           <Home 			
+             posts={searchResults} 	
+             fetchError={fetchError}	
+             isLoading={isLoading}	
+           />			
+         </Route>
