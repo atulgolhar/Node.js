@@ -1,7 +1,9 @@
+// know HTML, CSS, and Javascript
 // Node.js differs from vanilla JavaScript	
-// 1) Node runs on server, not in a browser (backend not frontend)
-// 2) Console is the terminal window
+// 1) node runs on server, JS runs in browser
+// 2) console is the terminal window
 console.log("Hello World")
+
 to run from termaial 		$ node server
 // 3) global object instead of window object
 console.log(global)
